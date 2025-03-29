@@ -1,1 +1,112 @@
-/* место для вашего кода */
+/*Начало блока шапки*/
+.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  padding: 95px 50px 100px;
+  align-items: center;
+  font-weight: normal;
+  justify-items: start;
+}
+header
+
+.header__links-list {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  justify-content: space-between;
+  list-style: circle;
+  padding: 0px;
+}
+
+.header__links-list-item_no-bullit{
+  list-style: none;
+}
+
+.header__link_active .header__link{
+  text-decoration: none;
+}
+
+.header__logo{
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+address{
+  max-width: 240px;
+  justify-self: end;
+  font-style: normal;
+  line-height: 24px;
+  height: 100%;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*Конец блока шапки*/
+
+/*Начало блока main*/
+main{
+  position: relative;
+}
+.cover{
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 165px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.lavel{
+  z-index: 1;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.cover__title span {
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 115%;
+}
+
+.no-letter-spacing{
+  letter-spacing: 0;
+
+}
+
+.aligned-text{
+  text-align: start;
+
+}
+.aligned-text_center {
+  text-align: center;
+}
+.aligned-text_right{
+  text-align: right;
+}
+
+
+
+/*Верстаем общий оверлей*/
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.6;
+  background-color: black;
+}
+/*Заканчиваем верстать общий оверлей*/
