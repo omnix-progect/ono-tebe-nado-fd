@@ -19,21 +19,21 @@
   list-style: circle;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
-.header__link_active .header__link{
+.header__link_active .header__link {
   text-decoration: none;
 }
 
-.header__logo{
+.header__logo {
   display: block;
   width: 148px;
   height: 105px;
 }
 
-address{
+address {
   justify-self: end;
   max-width: 240px;
   height: 100%;
@@ -49,7 +49,7 @@ address{
 /*Конец блока шапки*/
 
 /*Начало блока main*/
-.cover{
+.cover {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@ address{
   background-size: cover;
 }
 
-.lavel{
+.lavel {
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -72,9 +72,8 @@ address{
   flex-direction: column;
   gap: 20px;
 }
-.no-letter-spacing{
+.no-letter-spacing {
   letter-spacing: 0;
-
 }
 .span-argiments {
   color: #fff;
@@ -85,18 +84,17 @@ address{
   text-transform: uppercase;
 }
 
-.aligned-text{
+.aligned-text {
   text-align: start;
-
 }
 .aligned-text_center {
   text-align: center;
 }
-.aligned-text_right{
+.aligned-text_right {
   text-align: right;
 }
 
-.cover__description{
+.cover__description {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -104,7 +102,7 @@ address{
   align-items: center;
 }
 
-.cover__description-text{
+.cover__description-text {
   color: #fff;
   font-size: 22px;
   line-height: 28px;
@@ -112,7 +110,7 @@ address{
   word-spacing: 16px;
 }
 
-.bet-button{
+.bet-button {
   width: 256px;
   height: 50px;
   border: 1px solid #fff;
@@ -122,7 +120,6 @@ address{
   background-color: transparent;
   cursor: pointer;
 }
-
 
 /*Верстаем общий оверлей*/
 .overlay {
@@ -187,7 +184,7 @@ address{
   padding: 48px 40px;
 }
 
-.card__title{
+.card__title {
   font-weight: bold;
   font-size: 22px;
   line-height: 120%;
@@ -202,19 +199,19 @@ address{
   z-index: 1;
 }
 
-.card_type_film{
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card_type_book{
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card_type_picture{
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
   padding-top: 30px;
   padding-left: 40px;
   font-size: 20px;
@@ -222,18 +219,18 @@ address{
 /*конец блока lots*/
 
 /*начало блока about*/
-.about__column{
+.about__column {
   display: grid;
   grid-template-columns: 334px auto;
   padding: 120px 24px 180px;
 }
 
-.about__logo{
+.about__logo {
   display: flex;
   justify-content: center;
 }
 
-.background-black{
+.background-black {
   background-color: black;
   width: 240px;
   height: 240px;
@@ -242,24 +239,23 @@ address{
   justify-content: center;
   align-items: center;
 }
-.about__logo-image{
+.about__logo-image {
   width: 148px;
   height: 114px;
 }
 
-.about__title{
+.about__title {
   padding: 100px 0px;
   text-transform: uppercase;
   font-size: 40px;
   font-weight: bold;
 }
 
-.about__text{
+.about__text {
   font-size: 20px;
   line-height: 24px;
 }
 
-.text_botton_margin{
+.text_botton_margin {
   margin-bottom: 24px;
 }
-
