@@ -273,7 +273,6 @@ address {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  min-height: 180px;
   padding: 0px 50px;
 }
 
