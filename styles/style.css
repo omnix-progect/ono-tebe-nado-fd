@@ -42,7 +42,7 @@ address {
   line-height: 24px;
 }
 
-.header__address {
+.features-block-in-address {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,7 +58,7 @@ address {
   display: flex;
   flex-direction: column;
   padding: 165px 50px 50px 50px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -206,15 +206,15 @@ address {
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots__look-more-link {
@@ -273,7 +273,7 @@ address {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 180px;
+  min-height: 180px;
   padding: 0px 50px;
 }
 
